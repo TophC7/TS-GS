@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "start": "node out/app.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  }
+}
